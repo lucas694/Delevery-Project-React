@@ -1,0 +1,28 @@
+.infBox{
+    height:130px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.leftInf{
+    width:70%;
+    height:130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightInf{
+    width:7%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imgPizza{
+    height:130px;
+    width:200px;
+    border-radius: 10px;
+    cursor:pointer;
+}

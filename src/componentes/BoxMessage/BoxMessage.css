@@ -1,0 +1,67 @@
+#box-message{
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    
+}
+
+
+
+.btn1{
+    background-color: #f8c60c;
+    font-family: 'Montserrat', sans-serif;    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border:none;
+    height:55px;
+    width:135px;
+    font-size:6px;
+    cursor:pointer;
+    transition: ease-out 0.8s;
+    margin-left: 12px;
+    margin-top: 35px;
+    
+}
+.btn1 a{
+    text-decoration: none;
+    color:#c81413;
+}
+
+.btn1:hover{
+    box-shadow: inset 135px 0 0 0 #c81413;
+    
+}
+.btn1:hover .h1-btn{
+    color:white
+}
+
+.txt1{
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #ffffff;
+    font-size: 60px;
+    
+}
+.txt2{
+    color: #ffffff;
+    font-family: 'Passion One';
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.txt3{
+    color: #f8c60c;
+    font-family: 'Passion One';
+    font-size: 100px;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: -10px;
+    margin-left:15%
+
+}
+
+.flag{
+    margin-left:15px
+}

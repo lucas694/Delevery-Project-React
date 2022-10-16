@@ -1,0 +1,61 @@
+.header-PedirAgr{
+    padding:15px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header-PedirAgr p{
+    font-size:17px;
+    font-weight: 200;
+    margin-left: 25px;
+}
+
+.iconArrowPedirAgora {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color:white
+}
+
+#promoTitle{
+    padding:15px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top:3%;
+    text-align: left;
+}
+
+
+#pizzaTitle{
+    padding:15px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.leftInf h3{
+    margin:55px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.rightInf h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #746D69;
+    margin-right: 10px;
+}
