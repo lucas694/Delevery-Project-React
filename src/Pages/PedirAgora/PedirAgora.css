@@ -59,3 +59,10 @@
     color: #746D69;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 525px) {
+
+    .rightInf h1{
+        margin-left: -30px;
+    }
+}

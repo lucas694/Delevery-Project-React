@@ -12,7 +12,7 @@ function CardPizzaSabores(props) {
                     <h3>{props.Sabor}</h3>
                     <h3 class="price">{props.Preco}</h3>
                 
-                    <a href="#"className="carLink">
+                    <a className="carLink">
                       <Link to="/PedirAgora"><img alt=" ImgCarLink" src={props.carLink} className="carImg"/></Link>
                     </a>
                 </div>

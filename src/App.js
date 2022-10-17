@@ -9,7 +9,7 @@ import Modal from "./componentes/Modal/Modal"
 
 import './App.css';
 
-{/* Tela inicial*/}
+// Tela inicial
 
 function App() {
   return (

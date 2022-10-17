@@ -65,3 +65,30 @@
 .flag{
     margin-left:15px
 }
+
+@media only screen and (max-width: 525px) {
+    .txt1{
+        font-size: 80px;
+    }
+    .txt2{
+        font-size: 50px;
+    }
+    .txt3{
+        font-size: 75px;
+    }
+    .btn1{
+        font-size: 5px;
+        width: 120px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    .flag{
+        margin-left: 0px;
+    }
+
+    #box-message{
+        height:400px;
+        margin-top: 25%;
+
+    }
+}
