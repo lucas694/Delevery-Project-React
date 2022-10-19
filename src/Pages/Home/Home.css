@@ -16,7 +16,7 @@
     }
 }
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 680px) {
 
     #background{
         background-size: 50em ,85em;

@@ -77,9 +77,9 @@
         font-size: 75px;
     }
     .btn1{
-        font-size: 5px;
-        width: 120px;
-        height: 45px;
+        font-size: 6px;
+        width: 140px;
+        height: 55px;
         margin-top: 20px;
     }
     .flag{
@@ -88,7 +88,7 @@
 
     #box-message{
         height:400px;
-        margin-top: 25%;
+        margin-top: 30%;
 
     }
 }

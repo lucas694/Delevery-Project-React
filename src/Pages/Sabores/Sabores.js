@@ -16,7 +16,7 @@ import CardPizzaSabores from "./CardPizzaSabores"
 
 const Sabores = () => {
     return(
-        <div>
+        <div className={"ponto"}>
             <div id="Container-pai-Sabores">
               <Link to={"/#"} className="link"><FaArrowLeft className="iconArrow"/></Link>
                 <div id="Container-Sabores">
