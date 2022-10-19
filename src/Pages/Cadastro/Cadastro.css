@@ -127,7 +127,7 @@ label {
 .form-container {
     flex: 1; 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-around;
     margin-top:20px;
 }
@@ -149,4 +149,32 @@ label {
     box-shadow: inset 600px 0 0 0 #B7C4CF;
 }
 
+@media only screen and (max-width: 1380px){
+    #Container-Cadastro{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    #Container-Cadastro{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1040px){
+    #cadastro-pessoal{
+        width:80%;
+    }
+    #cadastro-endereco{
+        width:80%;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    .form-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
 

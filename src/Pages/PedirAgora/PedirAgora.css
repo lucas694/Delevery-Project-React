@@ -60,9 +60,29 @@
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 525px) {
-
+@media only screen and (max-width: 850px){
+    .header-PedirAgr p{
+        font-size:15px;
+    }
+    .leftInf h3{
+        margin:25px;
+        font-size:13px;
+    }
     .rightInf h1{
-        margin-left: -30px;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+
+    .leftInf h3{
+        margin:25px;
+        font-size:12px;
+        margin-left: 10px;
+    }
+    .rightInf h1{
+        font-size: 13px;
+        margin-right: 30px;
     }
 }

@@ -196,19 +196,21 @@
     letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 1200px) {
 
     .modal-content {
-        width: 90%;
+        width: 80%;
     }
-
+}
+@media only screen and (max-width: 660px){
+    .modal-content {
+        width: 85%;
+    }
+    #subtotal{
+        margin-right: 15px;
+    }
     .input-endereco{
         width: 95%;
     }
-
-    .input-cpf{
-        width: 95%;
-    }
-
 
 }

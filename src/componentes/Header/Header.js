@@ -8,7 +8,6 @@ import { useState } from "react";
 import Pizza from "../assets/pizza2.png"
 import Moto from "../assets/moto.png"
 
-
 const Header = () =>{
     const [open, setOpen] = useState(false)
     const openMenu = () =>{
