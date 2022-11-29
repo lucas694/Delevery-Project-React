@@ -17,12 +17,12 @@ const BoxMessage = () =>{
                 </div>
 
                 <img alt={"FlagImg"} className="flag" src={Flag} />
-
+                <Link to="/PedirAgora" className={""}>
                     <button className="btn1">
-                        <Link to="/PedirAgora"> <h1 className="h1-btn">PEDIR AGORA</h1> </Link> 
+                         <h1 className="h1-btn">PEDIR AGORA</h1>
                     </button>
+                </Link>
             </div>
-
         </div>
     );
 };

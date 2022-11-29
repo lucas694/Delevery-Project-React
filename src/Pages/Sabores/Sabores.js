@@ -16,9 +16,11 @@ import CardPizzaSabores from "./CardPizzaSabores"
 
 const Sabores = () => {
     return(
-        <div className={"ponto"}>
             <div id="Container-pai-Sabores">
-              <Link to={"/#"} className="link"><FaArrowLeft className="iconArrow"/></Link>
+              <div className={"IconDiv"}>
+                <Link to={"/#"} className="link"><FaArrowLeft className="iconArrow"/></Link>
+              </div>
+
                 <div id="Container-Sabores">
                 <CardPizzaSabores Sabor="Pizza de Marguerita" 
                     Preco={55 + "$"}  image={Marguerita} carLink={Car}
@@ -44,9 +46,8 @@ const Sabores = () => {
                     Preco={55 + "$"}  image={Vegan} carLink={Car}
                     Descricao={"Uma deliciosa Pizza Vegan"} />
                     </div>
-            
+
             </div>
-        </div>
     )
 };
 

@@ -17,3 +17,8 @@ footer{
     justify-items: center;
     flex-direction: column;
 }
+@media only screen and (max-width: 525px) {
+    footer{
+    display: none;
+    }
+}

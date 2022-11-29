@@ -63,7 +63,7 @@
 .form-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #cadastro-endereco{
@@ -98,7 +98,7 @@ label {
 }
 
 .form-half {
-    width: 48%;
+    width: 45%;
 }
 
 .form-large{

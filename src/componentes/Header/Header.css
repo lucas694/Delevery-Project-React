@@ -270,7 +270,8 @@ li a:hover {
 
     .logo-moto{
         width:140px;
-        height:80px
+        height:80px;
+        display:none;
     }
     #logos{
         margin-left:10px

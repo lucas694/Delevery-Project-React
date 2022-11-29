@@ -1,12 +1,21 @@
 #Container-pai-Sabores{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-repeat: no-repeat;
-    width:auto;
+    width:100%;
     background-size: 100% ,100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                        rgba(0, 0, 0, 0.5)), url("../../componentes/assets/wallP1.jpg");
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.IconDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
 }
 
 .iconArrow{
@@ -24,9 +33,10 @@
     max-width: 1000px;
     Flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+
     
 }
-
 .pizza-Layout{
     width:330px;
     height:230px;
@@ -42,8 +52,6 @@
     margin-bottom: auto;
     margin-top:100px;
     box-shadow: 0.2px 2.5px 0.2px 0.2px rgb(136, 136, 136);
-    
-    
 }
 
 .infModel{
@@ -120,18 +128,19 @@
 }
 
 @media only screen and (max-width: 730px) {
-    #Container-Sabores{
-        width:500px;
+    #Container-Sabores {
+        width: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #Container-pai-Sabores{
+
+    #Container-pai-Sabores {
         display: flex;
         justify-content: center;
         background-repeat: no-repeat;
-        width:auto;
-        background-size: 100% ,920%;
+        width: auto;
+        background-size: 100%, 920%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)), url("../../componentes/assets/wallP1.jpg");
         background-position: center;

@@ -16,7 +16,6 @@ import Promocao from "../../componentes/assets/pizzas/promocao.jpg"
 import {FaArrowLeft} from "react-icons/fa";
 
 //Layout Pizza SABORES
-ReactModal.setAppElement('#root');
 
 const PedirAgora = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
