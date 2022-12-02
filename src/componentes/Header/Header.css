@@ -115,10 +115,10 @@ li a:hover {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    margin-top:15.6em;
+    margin-top:15em;
     position: absolute;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     right: 0;
 
 }
@@ -168,6 +168,9 @@ li a:hover {
         font-size: 10px;
         }
     }
+    .NavBarMobile {
+        margin-top: 15.6em;
+    }
 
 @media only screen and (max-width: 850px){
     #headerSabores{
@@ -210,6 +213,8 @@ li a:hover {
     li .link{
         font-size: 9px;
     }
+
+
 
 }
 
@@ -255,6 +260,8 @@ li a:hover {
         justify-content: center;
         align-items: center;
     }
+
+
 }
 @media only screen and (max-width: 525px) {
     li .link {
