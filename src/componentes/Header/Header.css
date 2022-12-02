@@ -283,6 +283,20 @@ li a:hover {
         padding-left: 2em;
         padding-right: 2em;
     }
+    .NavBarMobile{
+        background-color:rgba(75, 74, 74, 0.37);
+        height:140px;
+        width:100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        margin-top:15em;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0px 0px 5px 5px;
+        right: 0;
+
+    }
 }
 
 
